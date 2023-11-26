@@ -1,0 +1,27 @@
+
+https://stackoverflow.com/questions/55160698/how-to-use-react-without-unsafe-inline-javascript-css-code
+https://stackoverflow.com/questions/29586928/react-minified-exception-occurred
+
+export NODE_OPTIONS=--openssl-legacy-provider
+export INLINE_RUNTIME_CHUNK=false
+export NODE_ENV=development
+
+https://stackoverflow.com/questions/46235798/relative-path-in-index-html-after-build
+Add: 
+  "homepage": "./",
+
+So that the react project works
+
+
+https://chonky.io/storybook/2.x/?path=/story/file-browser-demos--two-instances
+
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API
+https://github.com/mdn/webextensions-examples/tree/main/open-my-page-button
+https://medium.com/geekculture/how-to-create-your-own-firefox-add-on-with-react-ef34fcddb2ea
+
+
+https://discourse.mozilla.org/t/introducing-mockzilla-and-mockzilla-webextension-for-easy-web-extension-testing-with-jest/59159
+https://lusito.github.io/mockzilla/deep-mock.html#problem
+https://lusito.github.io/mockzilla-webextension/

@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmark Manager",
+    "version": "1.0",
+    "description": "Manage bookmarks as folders",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "permissions": [
+        "bookmarks",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "browser_action": {
+        "default_icon": "icons/icon.png",
+        "default_title": "Bookmark Manager"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{ab9cfb19-e719-481f-83c0-88f8a3e79086}"
+        }
+    }
+}
